@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val textView = findViewById<TextView>(R.id.text)
-        textView.text = "Hello Magdey"
+        val text_view = findViewById<TextView>(R.id.test_text)
+        text_view.text = "Hello Magdey"
     }
 }
